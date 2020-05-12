@@ -14,6 +14,12 @@
 		177553B0246560F700F8B3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177553AF246560F700F8B3F3 /* Assets.xcassets */; };
 		177553B3246560F700F8B3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177553B1246560F700F8B3F3 /* LaunchScreen.storyboard */; };
 		1779CF752469A6BB00D331B4 /* AntimageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF742469A6BB00D331B4 /* AntimageVC.swift */; };
+		1779CF77246A9A9300D331B4 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1779CF76246A9A9300D331B4 /* dark_background.pdf */; };
+		1779CF7A246A9EAC00D331B4 /* lightDarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF79246A9EAC00D331B4 /* lightDarkVC.swift */; };
+		1779CF7C246A9F6700D331B4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7B246A9F6700D331B4 /* Theme.swift */; };
+		1779CF7E246A9F8800D331B4 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7D246A9F8800D331B4 /* LightTheme.swift */; };
+		1779CF80246A9F8F00D331B4 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */; };
+		1779CF82246A9FD200D331B4 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		177553B2246560F700F8B3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177553B4246560F700F8B3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1779CF742469A6BB00D331B4 /* AntimageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntimageVC.swift; sourceTree = "<group>"; };
+		1779CF76246A9A9300D331B4 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
+		1779CF79246A9EAC00D331B4 /* lightDarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightDarkVC.swift; sourceTree = "<group>"; };
+		1779CF7B246A9F6700D331B4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1779CF7D246A9F8800D331B4 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				177553A6246560F300F8B3F3 /* AppDelegate.swift */,
+				1779CF78246A9E8500D331B4 /* LigntnDark */,
 				177553A8246560F300F8B3F3 /* SceneDelegate.swift */,
 				177553AA246560F300F8B3F3 /* ViewController.swift */,
 				177553AC246560F300F8B3F3 /* Main.storyboard */,
@@ -66,8 +79,21 @@
 				177553B1246560F700F8B3F3 /* LaunchScreen.storyboard */,
 				177553B4246560F700F8B3F3 /* Info.plist */,
 				1779CF742469A6BB00D331B4 /* AntimageVC.swift */,
+				1779CF76246A9A9300D331B4 /* dark_background.pdf */,
 			);
 			path = autoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		1779CF78246A9E8500D331B4 /* LigntnDark */ = {
+			isa = PBXGroup;
+			children = (
+				1779CF79246A9EAC00D331B4 /* lightDarkVC.swift */,
+				1779CF7B246A9F6700D331B4 /* Theme.swift */,
+				1779CF7D246A9F8800D331B4 /* LightTheme.swift */,
+				1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */,
+				1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */,
+			);
+			path = LigntnDark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1779CF77246A9A9300D331B4 /* dark_background.pdf in Resources */,
 				177553B3246560F700F8B3F3 /* LaunchScreen.storyboard in Resources */,
 				177553B0246560F700F8B3F3 /* Assets.xcassets in Resources */,
 				177553AE246560F300F8B3F3 /* Main.storyboard in Resources */,
@@ -141,10 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1779CF7A246A9EAC00D331B4 /* lightDarkVC.swift in Sources */,
 				177553AB246560F300F8B3F3 /* ViewController.swift in Sources */,
 				177553A7246560F300F8B3F3 /* AppDelegate.swift in Sources */,
+				1779CF7C246A9F6700D331B4 /* Theme.swift in Sources */,
 				1779CF752469A6BB00D331B4 /* AntimageVC.swift in Sources */,
+				1779CF7E246A9F8800D331B4 /* LightTheme.swift in Sources */,
+				1779CF82246A9FD200D331B4 /* ThemeProtocol.swift in Sources */,
 				177553A9246560F300F8B3F3 /* SceneDelegate.swift in Sources */,
+				1779CF80246A9F8F00D331B4 /* DarkTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
