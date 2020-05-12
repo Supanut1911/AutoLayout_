@@ -20,6 +20,7 @@
 		1779CF7E246A9F8800D331B4 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7D246A9F8800D331B4 /* LightTheme.swift */; };
 		1779CF80246A9F8F00D331B4 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */; };
 		1779CF82246A9FD200D331B4 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */; };
+		1779CF84246AE53000D331B4 /* SettingThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF83246AE53000D331B4 /* SettingThemeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1779CF7D246A9F8800D331B4 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
 		1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		1779CF83246AE53000D331B4 /* SettingThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingThemeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				1779CF7D246A9F8800D331B4 /* LightTheme.swift */,
 				1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */,
 				1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */,
+				1779CF83246AE53000D331B4 /* SettingThemeVC.swift */,
 			);
 			path = LigntnDark;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				1779CF7A246A9EAC00D331B4 /* lightDarkVC.swift in Sources */,
 				177553AB246560F300F8B3F3 /* ViewController.swift in Sources */,
 				177553A7246560F300F8B3F3 /* AppDelegate.swift in Sources */,
+				1779CF84246AE53000D331B4 /* SettingThemeVC.swift in Sources */,
 				1779CF7C246A9F6700D331B4 /* Theme.swift in Sources */,
 				1779CF752469A6BB00D331B4 /* AntimageVC.swift in Sources */,
 				1779CF7E246A9F8800D331B4 /* LightTheme.swift in Sources */,

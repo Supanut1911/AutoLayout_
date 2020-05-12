@@ -10,7 +10,6 @@ import UIKit
 
 class lightDarkVC: UIViewController {
 
-    @IBOutlet weak var switchToggle: UISwitch!
     @IBOutlet weak var pkLabel: UILabel!
     @IBOutlet weak var degreeLabel: UILabel!
     @IBOutlet weak var icon: UIImageView!
@@ -22,6 +21,11 @@ class lightDarkVC: UIViewController {
 
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        setupUI()
+    }
+    
     func setupUI() {
         pkLabel.textColor = Theme.currentTheme.labelColor
         degreeLabel.textColor = Theme.currentTheme.labelColor
@@ -29,16 +33,16 @@ class lightDarkVC: UIViewController {
         backgroundTheme.image = Theme.currentTheme.bg
     }
     
-    @IBAction func didChange(_ sender: UISwitch) {
-        if sender.isOn {
-            Theme.currentTheme = LightTheme()
-                setupUI()
-        } else {
-            Theme.currentTheme = DarkTheme()
-                setupUI()
-        }
-    
-    }
+//    @IBAction func didChange(_ sender: UISwitch) {
+//        if sender.isOn {
+//            Theme.currentTheme = LightTheme()
+//                setupUI()
+//        } else {
+//            Theme.currentTheme = DarkTheme()
+//                setupUI()
+//        }
+//    
+//    }
     
     
     
