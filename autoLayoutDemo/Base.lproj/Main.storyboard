@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Da2-rA-d8i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Eb0-37-q4d">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -829,6 +829,100 @@
             </objects>
             <point key="canvasLocation" x="893" y="1790"/>
         </scene>
+        <!--Flip CardVC-->
+        <scene sceneID="2YX-SM-phN">
+            <objects>
+                <viewController id="Eb0-37-q4d" customClass="FlipCardVC" customModule="autoLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m76-fy-AOs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGu-jR-aIo">
+                                <rect key="frame" x="50" y="94" width="111" height="171"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="171" id="vmF-mh-jYz"/>
+                                    <constraint firstAttribute="width" constant="111" id="wBf-bv-bra"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <connections>
+                                    <action selector="flipCardTap:" destination="Eb0-37-q4d" eventType="touchUpInside" id="bqF-od-Sow"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aud-wl-hEf">
+                                <rect key="frame" x="236" y="216" width="111" height="171"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="171" id="BAe-le-rrH"/>
+                                    <constraint firstAttribute="width" constant="111" id="sdC-LQ-Tl2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <connections>
+                                    <action selector="flipCardTap:" destination="Eb0-37-q4d" eventType="touchUpInside" id="dbR-fa-es0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flip: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXf-8U-J1S">
+                                <rect key="frame" x="20" y="778" width="374" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fz-BD-SYk">
+                                <rect key="frame" x="50" y="437" width="111" height="171"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="6bh-b9-y6U"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="CQo-Lp-jsH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="171" id="iyZ-ss-pl6"/>
+                                    <constraint firstAttribute="height" constant="171" id="w19-bh-ouV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <connections>
+                                    <action selector="flipCardTap:" destination="Eb0-37-q4d" eventType="touchUpInside" id="E4h-kr-nJX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ix-Ad-xie">
+                                <rect key="frame" x="236" y="559" width="111" height="171"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="171" id="HcV-43-3Dp"/>
+                                    <constraint firstAttribute="width" constant="111" id="xjG-Ma-Teg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="50"/>
+                                <connections>
+                                    <action selector="flipCardTap:" destination="Eb0-37-q4d" eventType="touchUpInside" id="beD-eU-OeC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9fz-BD-SYk" firstAttribute="leading" secondItem="Brj-XN-WuR" secondAttribute="leading" constant="50" id="DFR-9N-zTg"/>
+                            <constraint firstItem="DXf-8U-J1S" firstAttribute="leading" secondItem="Brj-XN-WuR" secondAttribute="leading" constant="20" id="LKe-9N-nPB"/>
+                            <constraint firstItem="Aud-wl-hEf" firstAttribute="top" secondItem="Brj-XN-WuR" secondAttribute="top" constant="172" id="M8e-EQ-yVN"/>
+                            <constraint firstItem="Brj-XN-WuR" firstAttribute="trailing" secondItem="Aud-wl-hEf" secondAttribute="trailing" constant="67" id="XzB-uT-R3W"/>
+                            <constraint firstItem="3Ix-Ad-xie" firstAttribute="top" secondItem="Aud-wl-hEf" secondAttribute="bottom" constant="172" id="efM-kO-NMN"/>
+                            <constraint firstItem="DXf-8U-J1S" firstAttribute="bottom" secondItem="Brj-XN-WuR" secondAttribute="bottom" id="euS-3T-tXl"/>
+                            <constraint firstItem="9fz-BD-SYk" firstAttribute="top" secondItem="yGu-jR-aIo" secondAttribute="bottom" constant="172" id="iSb-dr-yZB"/>
+                            <constraint firstItem="Brj-XN-WuR" firstAttribute="trailing" secondItem="DXf-8U-J1S" secondAttribute="trailing" constant="20" id="pKe-59-5ar"/>
+                            <constraint firstItem="Brj-XN-WuR" firstAttribute="trailing" secondItem="3Ix-Ad-xie" secondAttribute="trailing" constant="67" id="ruD-cn-Two"/>
+                            <constraint firstItem="yGu-jR-aIo" firstAttribute="leading" secondItem="Brj-XN-WuR" secondAttribute="leading" constant="50" id="sWC-hx-Wxi"/>
+                            <constraint firstItem="yGu-jR-aIo" firstAttribute="top" secondItem="Brj-XN-WuR" secondAttribute="top" constant="50" id="tYC-2f-I8U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Brj-XN-WuR"/>
+                    </view>
+                    <connections>
+                        <outlet property="flipCountLabel" destination="DXf-8U-J1S" id="3MP-GB-J8f"/>
+                        <outlet property="ghostBtn" destination="yGu-jR-aIo" id="RDX-wa-ywJ"/>
+                        <outletCollection property="carButtons" destination="yGu-jR-aIo" collectionClass="NSMutableArray" id="p6o-ZS-QeU"/>
+                        <outletCollection property="carButtons" destination="Aud-wl-hEf" collectionClass="NSMutableArray" id="t2q-cr-sc3"/>
+                        <outletCollection property="carButtons" destination="9fz-BD-SYk" collectionClass="NSMutableArray" id="SSQ-AK-NrH"/>
+                        <outletCollection property="carButtons" destination="3Ix-Ad-xie" collectionClass="NSMutableArray" id="ndH-u0-BCg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rb9-2t-Y8C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705.7971014492755" y="1755.8035714285713"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="5qg-nZ-DwI">
             <objects>
@@ -1071,22 +1165,22 @@
                         <viewLayoutGuide key="safeArea" id="er0-DR-fnj"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Km3-vc-gh3"/>
                                 <exclude reference="9po-K6-2H2"/>
                                 <exclude reference="Xuq-h9-mVN"/>
                                 <exclude reference="nyp-hi-7zk"/>
-                                <exclude reference="Km3-vc-gh3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
+                                <exclude reference="9Mf-Wv-0Fc"/>
+                                <exclude reference="ImM-Mf-DZD"/>
+                                <include reference="Km3-vc-gh3"/>
                                 <include reference="9po-K6-2H2"/>
                                 <exclude reference="GYD-NW-fV7"/>
                                 <include reference="Xuq-h9-mVN"/>
                                 <include reference="nyp-hi-7zk"/>
                                 <exclude reference="u3R-WE-xKB"/>
-                                <exclude reference="9Mf-Wv-0Fc"/>
-                                <exclude reference="ImM-Mf-DZD"/>
-                                <include reference="Km3-vc-gh3"/>
                             </mask>
                         </variation>
                     </view>
@@ -1133,7 +1227,7 @@
         <image name="skill3" width="128" height="128"/>
         <image name="skill4" width="128" height="128"/>
         <namedColor name="weatherColor">
-            <color red="0.9974655509" green="0.60324817900000005" blue="0.7098027468" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.99699997901916504" green="0.6029999852180481" blue="0.70999997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

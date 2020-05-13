@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173BDDFF246BB4140004FA62 /* FlipCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BDDFE246BB4140004FA62 /* FlipCardVC.swift */; };
 		177553A7246560F300F8B3F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177553A6246560F300F8B3F3 /* AppDelegate.swift */; };
 		177553A9246560F300F8B3F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177553A8246560F300F8B3F3 /* SceneDelegate.swift */; };
 		177553AB246560F300F8B3F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177553AA246560F300F8B3F3 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173BDDFE246BB4140004FA62 /* FlipCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardVC.swift; sourceTree = "<group>"; };
 		177553A3246560F300F8B3F3 /* autoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177553A6246560F300F8B3F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		177553A8246560F300F8B3F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				177553B4246560F700F8B3F3 /* Info.plist */,
 				1779CF742469A6BB00D331B4 /* AntimageVC.swift */,
 				1779CF76246A9A9300D331B4 /* dark_background.pdf */,
+				173BDDFE246BB4140004FA62 /* FlipCardVC.swift */,
 			);
 			path = autoLayoutDemo;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				1779CF7A246A9EAC00D331B4 /* lightDarkVC.swift in Sources */,
 				177553AB246560F300F8B3F3 /* ViewController.swift in Sources */,
 				177553A7246560F300F8B3F3 /* AppDelegate.swift in Sources */,
+				173BDDFF246BB4140004FA62 /* FlipCardVC.swift in Sources */,
 				1779CF84246AE53000D331B4 /* SettingThemeVC.swift in Sources */,
 				1779CF7C246A9F6700D331B4 /* Theme.swift in Sources */,
 				1779CF752469A6BB00D331B4 /* AntimageVC.swift in Sources */,
