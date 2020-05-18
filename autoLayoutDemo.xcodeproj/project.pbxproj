@@ -22,6 +22,9 @@
 		1779CF80246A9F8F00D331B4 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */; };
 		1779CF82246A9FD200D331B4 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */; };
 		1779CF84246AE53000D331B4 /* SettingThemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779CF83246AE53000D331B4 /* SettingThemeVC.swift */; };
+		17FCCAB224726E250010F0A0 /* saveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAB124726E250010F0A0 /* saveVC.swift */; };
+		17FCCAB4247270EF0010F0A0 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAB3247270EF0010F0A0 /* SAButton.swift */; };
+		17FCCAB6247271880010F0A0 /* NameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAB5247271880010F0A0 /* NameTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		1779CF7F246A9F8F00D331B4 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		1779CF81246A9FD200D331B4 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
 		1779CF83246AE53000D331B4 /* SettingThemeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingThemeVC.swift; sourceTree = "<group>"; };
+		17FCCAB124726E250010F0A0 /* saveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveVC.swift; sourceTree = "<group>"; };
+		17FCCAB3247270EF0010F0A0 /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		17FCCAB5247271880010F0A0 /* NameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		177553A5246560F300F8B3F3 /* autoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				17FCCAB024726DF50010F0A0 /* UserDefault */,
 				177553A6246560F300F8B3F3 /* AppDelegate.swift */,
 				1779CF78246A9E8500D331B4 /* LigntnDark */,
 				177553A8246560F300F8B3F3 /* SceneDelegate.swift */,
@@ -100,6 +107,16 @@
 				1779CF83246AE53000D331B4 /* SettingThemeVC.swift */,
 			);
 			path = LigntnDark;
+			sourceTree = "<group>";
+		};
+		17FCCAB024726DF50010F0A0 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				17FCCAB124726E250010F0A0 /* saveVC.swift */,
+				17FCCAB3247270EF0010F0A0 /* SAButton.swift */,
+				17FCCAB5247271880010F0A0 /* NameTextField.swift */,
+			);
+			path = UserDefault;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +201,10 @@
 				1779CF7E246A9F8800D331B4 /* LightTheme.swift in Sources */,
 				1779CF82246A9FD200D331B4 /* ThemeProtocol.swift in Sources */,
 				177553A9246560F300F8B3F3 /* SceneDelegate.swift in Sources */,
+				17FCCAB6247271880010F0A0 /* NameTextField.swift in Sources */,
 				1779CF80246A9F8F00D331B4 /* DarkTheme.swift in Sources */,
+				17FCCAB4247270EF0010F0A0 /* SAButton.swift in Sources */,
+				17FCCAB224726E250010F0A0 /* saveVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

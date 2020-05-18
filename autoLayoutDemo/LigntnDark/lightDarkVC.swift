@@ -23,6 +23,7 @@ class lightDarkVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        print(Theme.currentTheme)
         setupUI()
     }
     
@@ -32,19 +33,4 @@ class lightDarkVC: UIViewController {
         icon.tintColor = Theme.currentTheme.labelColor
         backgroundTheme.image = Theme.currentTheme.bg
     }
-    
-//    @IBAction func didChange(_ sender: UISwitch) {
-//        if sender.isOn {
-//            Theme.currentTheme = LightTheme()
-//                setupUI()
-//        } else {
-//            Theme.currentTheme = DarkTheme()
-//                setupUI()
-//        }
-//    
-//    }
-    
-    
-    
-
 }

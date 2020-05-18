@@ -10,10 +10,13 @@ import UIKit
 
 class SettingThemeVC: UIViewController {
 
+    @IBOutlet weak var switchView: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+
     
     func setUI() {
         view.backgroundColor = Theme.currentTheme.labelColor

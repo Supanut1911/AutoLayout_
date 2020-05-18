@@ -3,4 +3,114 @@
    uuid = "417A8A46-C29C-486E-AE26-A5D0A41EF07D"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autoLayoutDemo/UserDefault/saveVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "saveVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - d3c185f5be4a11ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.styleSegmentContorl.getter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - 57f8e5d555c3c9fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.styleSegmentContorl.setter : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - d5247e01ec00abcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.styleSegmentContorl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt;"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - dd15d8e971d9a14c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.styleSegmentContorl.modify : Swift.Optional&lt;__C.UISegmentedControl&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - fd140e71c6ffeb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; autoLayoutDemo.saveVC"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "309">
+               </Location>
+               <Location
+                  uuid = "CAAB6CAC-9C9C-4C1D-B339-1129B92FE4F6 - 821378c4c57efa64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autoLayoutDemo.saveVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;autoLayoutDemo.saveVC&gt;"
+                  moduleName = "autoLayoutDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/iCloud%20Drive%20(%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A7%E0%B8%A3)/Documents/autoLayoutDemo/autoLayoutDemo/UserDefault/saveVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

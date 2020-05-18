@@ -13,6 +13,10 @@ class FlipCardVC: UIViewController {
     var flipCount = 0
     var arrChoice: Array<String> = ["👻", "🎃", "😈", "☠️"]
     
+    var arrInt = [1,2,3,4,5]
+    var newInt = [Int]()
+    
+    
     @IBOutlet var carButtons: [UIButton]!
     
     @IBOutlet weak var ghostBtn: UIButton!
@@ -21,7 +25,8 @@ class FlipCardVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    
+      
+        
     }
     
     func flipCard(withEmoji emoji: String, on button: UIButton) {
